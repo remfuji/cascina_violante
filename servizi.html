@@ -26,17 +26,37 @@
                 <div class="logo-image">
                     <a id="a" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
                 </div>
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                    <div class='menu-button'></div>
-                </label>
-                <ul class="menu">
-                    <li><a id="a2" href="#">Chi Siamo</a></li>
-                    <li><a id="a2" href="servizi.html">Servizi</a></li>
-                    <li><a id="a2" href="#">Dintorni</a></li>
-                    <li><a id="a2" href="contatti.html">Contatti</a></li>
-
-                </ul>
+                <nav role="navigation">
+                    <div id="menuToggle">
+                      <!--
+                      A fake / hidden checkbox is used as click reciever,
+                      so you can use the :checked selector on it.
+                      -->
+                      <input type="checkbox" />
+                      
+                      <!--
+                      Some spans to act as a hamburger.
+                      
+                      They are acting like a real hamburger,
+                      not that McDonalds stuff.
+                      -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      
+                      <!--
+                      Too bad the menu has to be inside of the button
+                      but hey, it's pure CSS magic.
+                      -->
+                      <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Info</li></a>
+                        <a href="#"><li>Contact</li></a>
+                        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                      </ul>
+                    </div>
+                  </nav>
             </section>
         </header>
         <main>
@@ -56,68 +76,14 @@
                             </div>
             
                     <!--card-->        
-                    <div class="container mt-5">
-                        <div class="card  mb-3" id="cardcard" >
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/img_picnic.jpg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h1 class="card-title text-center" id="servizi_h1">pic nic</h1>
-                                        <p id="servizi_p"class="card-text text text-center">Abbiamo uno spazio esterno incredibilmente ampio dove puoi mangiare e rilassarti 
-                                                                            come preferisci
-                                        </p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="container cont_card">
+                        <div class="img_card">
+                            <img src="images/img_picnic.jpg" alt="">
                         </div>
-                        <div class="card mb-3" id="cardcard">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/img_event.jpg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h1 class="card-title text-center" id="servizi_h1">eventi</h1>
-                                        <p id="servizi_p" class="card-text text text-center">This is a wider card with supporting text below as a natural lead-in to additional
-                                            content. This content is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum recusandae accusantium, error sed modi dicta, dignissimos unde quam quis quidem veniam. Ipsum, quo quisquam itaque nulla velit provident deserunt et! little bit longer. lo</p>
-                                       
-                                    </div>
-                                </div>
+                            <div class="txt_card">
+                                <h2>title</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, accusamus? Qui error natus, iste ad molestias sequi, voluptates, cumque sapiente tempora facilis repellat totam deserunt enim suscipit temporibus architecto blanditiis.</p>
                             </div>
-                        </div>
-                        <div class="card mb-3" id="cardcard">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/img_barbecue.jpg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h1 class="card-title text-center" id="servizi_h1">barbecue</h1>
-                                        <p id="servizi_p" class="card-text text text-center">This is a wider card with supporting text below as a natural lead-in to additional
-                                            content. This content is a little bit longer.</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3" id="cardcard">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="images/img_relax.jpg" class="img-fluid rounded-start" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h1 class="card-title text-center" id="servizi_h1">relax</h1>
-                                        <p id="servizi_p" class="card-text text text-center">This is a wider card with supporting text below as a natural lead-in to additional
-                                            content. This content is a little bit longer.</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
         </main>
