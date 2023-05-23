@@ -23,40 +23,22 @@
 
             <!--navbar-->
             <section class="top-nav">
-                <div class="logo-image">
-                    <a id="a" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
-                </div>
-                <nav role="navigation">
-                    <div id="menuToggle">
-                      <!--
-                      A fake / hidden checkbox is used as click reciever,
-                      so you can use the :checked selector on it.
-                      -->
-                      <input type="checkbox" />
-                      
-                      <!--
-                      Some spans to act as a hamburger.
-                      
-                      They are acting like a real hamburger,
-                      not that McDonalds stuff.
-                      -->
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      
-                      <!--
-                      Too bad the menu has to be inside of the button
-                      but hey, it's pure CSS magic.
-                      -->
-                      <ul id="menu">
-                        <a href="#"><li>Home</li></a>
-                        <a href="#"><li>About</li></a>
-                        <a href="#"><li>Info</li></a>
-                        <a href="#"><li>Contact</li></a>
-                        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-                      </ul>
+                
+                    <div class="logo-image">
+                        <a id="a" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
                     </div>
-                  </nav>
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu">
+                        <li><a id="a2" href="#">Chi Siamo</a></li>
+                        <li><a id="a2" href="servizi.html">Servizi</a></li>
+                        <li><a id="a2" href="#">Dintorni</a></li>
+                        <li><a id="a2" href="contatti.html">Contatti</a></li>
+                
+                    </ul>
+                
             </section>
         </header>
         <main>
