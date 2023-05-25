@@ -302,7 +302,7 @@ form-group{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -webkit-tap-highlight-color: transparent;
+    
 }
 #border-form, .border-input{
 border: 2px solid #F48224;
@@ -452,7 +452,7 @@ border: 2px solid #F48224;
 }
 /*card*/
 
-#a1 {
+.a1 {
     color: #18272F;
     position: relative;
     text-decoration: none;
@@ -460,7 +460,7 @@ border: 2px solid #F48224;
     font-size: 30px;
 }
 
-#a1::before {
+.a1::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -474,7 +474,7 @@ border: 2px solid #F48224;
     transition: transform .3s ease-in-out;
 }
 
-#a1:hover::before {
+.a1:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -670,7 +670,7 @@ border: 2px solid #F48224;
     
 }
 
-#a2 {
+.a2 {
     color: #18272F;
     position: relative;
     text-decoration: none;
@@ -678,7 +678,7 @@ border: 2px solid #F48224;
     font-size: 20px;
 }
 
-#a2::before {
+.a2::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -692,7 +692,7 @@ border: 2px solid #F48224;
     transition: transform .3s ease-in-out;
 }
 
-#a2:hover::before {
+.a2:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
