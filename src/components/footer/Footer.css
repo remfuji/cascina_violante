@@ -1,0 +1,155 @@
+footer {
+
+    flex-shrink: 0;
+
+
+}
+
+footer .link_footer ul,
+footer .info_footer ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+
+
+}
+
+footer .info_footer ul li a {
+    text-decoration: none;
+    color: #555;
+    padding-right: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.img_footer {
+    width: 150px;
+    height: 80px;
+}
+
+footer ul i {
+
+    font-size: 30px;
+    color: var(--footer);
+    padding-right: 10px;
+    margin-right: 10px;
+
+
+}
+
+
+
+
+footer ul i:hover {
+    color: #D67118;
+}
+
+.link_footer,
+.logo_footer,
+.info_footer {
+
+    text-align: center;
+    background-color: #FFF;
+
+}
+
+.link_footer ul li,
+footer .info_footer ul li {
+    display: inline;
+}
+
+.footer .link_footer ul li,
+.info_footer ul li {
+    z-index: 9;
+    cursor: pointer;
+}
+
+@media (max-width: 575px) {
+
+    .link_footer,
+    .logo_footer,
+    .info_footer {
+        margin: 0;
+        border: 2px solid var(--footer);
+        border-bottom: white;
+        border-top: white;
+
+    }
+
+    .link_footer {
+        border-top: 2px solid var(--footer);
+        border-top-left-radius: 20%;
+        border-top-right-radius: 15%;
+    }
+
+    .info_footer {
+        border-bottom: 2px solid var(--footer);
+        margin-bottom: 10px;
+        border-bottom-left-radius: 15%;
+        border-bottom-right-radius: 20%;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .link_footer,
+    .logo_footer,
+    .info_footer {
+        margin: 0;
+        border: 2px solid var(--footer);
+    }
+
+    .link_footer {
+        border-right: white;
+        border-bottom: white;
+        border-top-left-radius: 20%;
+    }
+
+    .logo_footer {
+        border-left: white;
+        border-bottom: white;
+        border-top-right-radius: 15%;
+    }
+
+    .info_footer {
+        border-top: white;
+        margin-bottom: 10px;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 7%;
+    }
+}
+
+@media (min-width:992px) and (max-width:3000px) {
+
+    .link_footer,
+    .logo_footer,
+    .info_footer {
+        margin: 0;
+        border: 2px solid var(--footer);
+        margin-bottom: 10px;
+
+    }
+
+    .link_footer {
+        border-right: white;
+        border-bottom-left-radius: 30%;
+    }
+
+    .logo_footer {
+        border-left: white;
+        border-right: white;
+        border-top-right-radius: 0%;
+    }
+
+    .info_footer {
+        border-left: white;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 25%;
+        border-bottom-right-radius: 15%;
+    }
+
+}
