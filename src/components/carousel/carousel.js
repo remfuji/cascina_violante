@@ -9,9 +9,7 @@ import img5 from '../../assets/cascina, esterno (1).jpg';
 
 function MyCarousel() {
   return (
-    <div className="container">
-      <div className="row mt-5">
-        <div className="col-sm-12 col-md-12 col-lg-6">
+  
           <Carousel id="carouselExample">
             <Carousel.Item>
               <img src={img1} className="d-block w-100 rounded img_carousel" alt="..." />
@@ -30,9 +28,7 @@ function MyCarousel() {
             </Carousel.Item>
 
           </Carousel>
-        </div>
-      </div>
-    </div>
+    
   );
 }
 export default MyCarousel;
