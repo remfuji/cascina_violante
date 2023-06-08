@@ -1,15 +1,12 @@
 
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
-import img1 from '../assets/Cascina, sala pranzo con salottino(2).jpg';
-import img2 from '../assets/Cascina, tavolata esterna(1).jpg';
-import img3 from '../assets/Cascina, vista campo giochi.jpg';
-import img4 from '../assets/Cascina, vista.jpg';
-import img5 from '../assets/cascina, esterno (1).jpg';
+import Carousel from '../components/carousel/carousel';
 import img_picnic from '../assets/img_picnic.jpg';
 import img_barbecue from '../assets/img_barbecue.jpg';
 import img_event from '../assets/img_event.jpg';
 import img_relax from '../assets/img_relax.jpg';
+import MyCarousel from '../components/carousel/carousel';
 
 function Home() {
     return (
@@ -21,34 +18,7 @@ function Home() {
                   <div className="container">
                     <div className="row mt-5 ">
                       <div className="col-sm-12 col-md-12 col-lg-6">
-                        <div id="carouselExample" className="carousel slide">
-                          <div className="carousel-inner carousel_radious">
-                            <div className="carousel-item active cont_carousel">
-                              <img src={img1} className="d-block w-100 rounded img_carousel" alt="..." />
-
-                            </div>
-                            <div className="carousel-item cont_carousel">
-                              <img src={img2} className="d-block w-100 rounded img_carousel" alt="..." />
-                            </div>
-                            <div className="carousel-item cont_carousel">
-                              <img src={img3} className="d-block w-100 rounded img_carousel" alt="..." />
-                            </div>
-                            <div className="carousel-item cont_carousel">
-                              <img src={img4} className="d-block w-100 rounded img_carousel" alt="..." />
-                            </div>
-                            <div className="carousel-item cont_carousel">
-                              <img src={img5} className="d-block w-100 rounded img_carousel" alt="..." />
-                            </div>
-                          </div>
-                          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                          </button>
-                          <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                          </button>
-                        </div>
+                        <Carousel />
                       </div>
                             
                             <div className="col-lg-6 mt-5">
