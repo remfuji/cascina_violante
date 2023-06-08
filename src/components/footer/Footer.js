@@ -9,7 +9,7 @@ function Footer(){
             <div className="container">
            <footer className=" footer">
 
-            <div className="row ms-2 row-cols-1 row-cols-md-3 g-4 mt-5 me-2 cont_footer">
+            <div className="row ms-2 row-cols-1 row-cols-md-3  mt-5 me-2 cont_footer">
               <div className="col link_footer col-sm-6 col-md-6 col-lg-4">
 
                 <ul>
