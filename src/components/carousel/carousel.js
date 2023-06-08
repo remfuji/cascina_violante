@@ -10,7 +10,7 @@ import img5 from '../../assets/cascina, esterno (1).jpg';
 function MyCarousel() {
   return (
   
-          <Carousel id="carouselExample">
+          <Carousel id="carouselExample" >
             <Carousel.Item>
               <img src={img1} className="d-block w-100 rounded img_carousel" alt="..." />
             </Carousel.Item>
