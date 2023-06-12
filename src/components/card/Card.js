@@ -2,6 +2,7 @@ import img_picnic from '../../assets/img_picnic.jpg';
 import img_barbecue from '../../assets/img_barbecue.jpg';
 import img_event from '../../assets/img_event.jpg';
 import img_relax from '../../assets/img_relax.jpg';
+import { HashLink } from 'react-router-hash-link';
 
 function Card(){
     return(
@@ -12,7 +13,7 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_picnic} className="card-img-top" alt="..." />
                                 <div className="card-body ">
-                                  <h5 className="card-title text-center "><a className="a1" href="#">Pic Nic</a></h5>
+                                  <h5 className="card-title text-center "><HashLink className='a1' to="/#pic-nic">pic-nic</HashLink></h5>
                                   <p className="card-text text-center">Abbiamo a disposizione un prato dove potersi rilassare e mangiare
                                   </p>
                                 </div>
@@ -22,7 +23,7 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_event} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                  <h5 className="card-title text-center "><a className="a1" href="#">Eventi</a></h5>
+                                  <h5 className="card-title text-center "><HashLink className='a1' to="/#eventi">eventi</HashLink></h5>
                                   <p className="card-text text-center">Condividi i momenti migliori con i tuoi parenti o amici</p>
                                 </div>
                               </div>
@@ -31,9 +32,9 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_barbecue} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                  <h5 className="card-title text-center "><a className="a1" href="#">Barbecue</a></h5>
+                                <h5 className="card-title text-center "><HashLink className='a1' to="/#barbecue">barbecue</HashLink></h5>
                                   <p className="card-text text-center">Grigliate all'aria aperta</p>
-                                </div>
+                                 </div>
                               </div>
                             </div>
 
@@ -41,7 +42,7 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_relax} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                  <h5 className="card-title text-center "><a className="a1" href="#">Relax</a></h5>
+                                  <h5 className="card-title text-center "><HashLink className='a1' to="/#relax">Relax</HashLink></h5>
                                   <p className="card-text text-center">Rilassati da noi</p>
                                 </div>
                               </div>

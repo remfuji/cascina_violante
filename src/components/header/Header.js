@@ -19,7 +19,7 @@ function Header(){
                             </label>
                             <ul className="menu">
                               <li><a className="a2" href="#">Chi Siamo</a></li>
-                              <li><a className="a2" href="servizi.html">Servizi</a></li>
+                              <li><Link to="/servizi" className='a2'>Servizi</Link></li>
                               <li><a className="a2" href="#">Dintorni</a></li>
                               <li><Link to="/contatti" className='a2'>Contatti</Link></li>
 
