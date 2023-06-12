@@ -21,9 +21,9 @@ function Home() {
                             
                             <div className="col-lg-6 mt-5">
                               <div className="card text-center slide_card" id="info_header">
-                                <div className="card-body">
+                                <div className="card-body ">
 
-                                      <p className="card-text text" id="text">
+                                      <div className='text' id="text">
                                         A Canova di Caminata, Alta Val Tidone (PC), alt.600 m. è possibile passare una giornata in campagna
                                         all'aperto in una
                                         situazione piacevole, molto spaziosa e ben attrezzata.
@@ -38,7 +38,7 @@ function Home() {
 
                                         Tutt'intorno un vasto prato dove giocareo rilassarsi piacevolmente.
 
-                                        Ideale per gruppi e famiglie, anche per festeggiare un evento.</p>
+                                        Ideale per gruppi e famiglie, anche per festeggiare un evento.</div>
 
                                 </div>
                               </div>

@@ -4,7 +4,9 @@ import img_picnic from '../assets/img_picnic.jpg';
 function Servizi(){
     return(
         <>
+         <body>
         <div classNameName="pagewrap">
+       
                      <Header />
      <main>
       <div className="container mt-5">  
@@ -26,7 +28,10 @@ function Servizi(){
 
      </main>
      <Footer />
+     
      </div>
+    </body>
+
         
         </>
 
