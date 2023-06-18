@@ -13,7 +13,7 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_picnic} className="card-img-top" alt="..." />
                                 <div className="card-body ">
-                                  <h5 className="card-title text-center "><HashLink className='a1' to="/#pic-nic">pic-nic</HashLink></h5>
+                                  <h5 className="card-title text-center "><HashLink className='a1' to="/Servizi/#pic-nic">pic-nic</HashLink></h5>
                                   <p className="card-text text-center">Abbiamo a disposizione un prato dove potersi rilassare e mangiare
                                   </p>
                                 </div>
@@ -32,7 +32,7 @@ function Card(){
                               <div className="card slide_card" id="cardcard">
                                 <img src={img_barbecue} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                <h5 className="card-title text-center "><HashLink className='a1' to="/#barbecue">barbecue</HashLink></h5>
+                                <h5 className="card-title text-center "><HashLink className='a1' to="/Servizi/#barbecue">barbecue</HashLink></h5>
                                   <p className="card-text text-center">Grigliate all'aria aperta</p>
                                  </div>
                               </div>
