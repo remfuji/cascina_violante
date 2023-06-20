@@ -1,5 +1,6 @@
-
-
+.container{
+  max-width: 90%;
+}
 
 
 #text {
@@ -7,6 +8,9 @@
   height: 400px;
     font-family: 'Dosis',
         sans-serif;
+        text-align: justify;
+        width: 100%;
+        
 
 }
 
@@ -77,15 +81,7 @@
   margin-top: 50px;
 }
 
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 
-}
 
 #border-form,
 .border-input {

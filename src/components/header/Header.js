@@ -6,7 +6,7 @@ import './Header.css';
 function Header(){
     return(
         <>
-        <header className="container">
+        <header className="container-fluid mt-1 ms-2 me-2">
 
                        
                         <section className="top-nav">
@@ -14,7 +14,7 @@ function Header(){
                             <Link to='/' id='a'><img  alt="logo cascina violante" src={logo} className="img-fluid" /></Link>
                           </div>
                             <input aria-label="form" id="menu-toggle" type="checkbox" />
-                            <label className='menu-button-container' for="menu-toggle">
+                            <label className='menu-button-container' htmlFor="menu-toggle">
                               <div className='menu-button'></div>
                             </label>
                             <ul className="menu">
